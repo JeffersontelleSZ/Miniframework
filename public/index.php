@@ -1,4 +1,6 @@
 <?php
 
 require_once "../Vendor/autoload.php";
-echo 'Hello World';
+
+$route = new \App\Route;
+print_r($route->getUrl());
